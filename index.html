@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Universitate Politehnica Timisoara</title>
+        <link rel = "stylesheet" href="style.css"> <!--StyleSheet CSS-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!--Link pentru Font-->
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Vithkuqi:wght@500;600;700&display=swap" rel="stylesheet"><!--Link pentru font-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /><!--Link pentru Icons-->
+    </head>
+    
+
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"> <img src="poze/logo_UPT.jpg"></a><!--LogoUPT-->
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i><!--HideLogo-->
+
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURSE</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTENT</a></li>
+                    </ul>
+                </div> 
+
+                <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i><!--ShowLogo-->
+
+            </nav>
+            <div class="text-box">
+                <h1>Facultatea Politehnica Timișoara</h1>
+                <p>Politehnica Timișoara, cunoscută oficial ca Universitatea Politehnica Timișoara (UPT), 
+                    este una dintre cele mai vechi și prestigioase instituții de învățământ superior tehnico-științific din România. Fondată în 1920, universitatea are o istorie bogată și a evoluat de-a lungul timpului pentru a deveni un pol de excelență în domeniul tehnic.</p>
+                <a href="" class="button">Viziteaza-ne pentru a afla mai multe</a>
+            </div>
+
+        
+        </section>
+        <!------ Course -->
+        <section class="course">
+            <h1>Cursurile pe care le oferim</h1>
+            
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+       <!----- JavaScript for IconsMenu -----> 
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu()
+        {
+            navLinks.style.right ="0";
+        }
+
+        function hideMenu()
+        {
+            navLinks.style.right ="-200px";
+        }
+    </script>
+    </body>
+</html>
