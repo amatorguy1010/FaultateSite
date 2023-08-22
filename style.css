@@ -128,7 +128,7 @@ nav .fa{
     padding-top: 100px;
 }
 
-h1{
+.curs h1{
     font-size: 36px;
     font-weight: 600;
 }
@@ -161,31 +161,43 @@ h3{
     .row{
         flex-direction: column;
     }
+    .curs h1{
+        font-size: 20px;
+    }
 }
 
 /*------ Campus -----*/
 
 .campus{
-    width: 80%;
+   
     margin: auto;
     text-align: center;
     padding-top: 50px;
+    width: 900px;
+    height: 80%;
+    
+}
+.campus h1{
+    font-size: 36px;
+    font-weight: 600;
+}
    
 
-}
 .faculta{
-    
-    flex-basis: 30%;
-    border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
-    
+    display: flex;
+    flex-direction: column;
+   
+}
     
 
-}
 .faculta img{
-    width: 100%;
+    width: 900px;
+    height: 700px;
+    border-radius: 10%;
+    margin-top: 20px;
    
 }
 
@@ -194,14 +206,16 @@ h3{
     background: transparent;
     height: 100%;
     width: 100%;
+    margin-top: 20px;
     position: absolute;
     top: 0;
     left: 0;
+    border-radius: 10%;
 }
 
 .layer:hover{
     
-    background: rgba(79, 104, 204, 0.7);
+    background: rgba(38, 189, 157, 0.7);
 
 }
 .layer h3{
@@ -215,5 +229,57 @@ h3{
     bottom: 49%;
     opacity: 1;
 }
+
+@media(max-width :700px)
+{
+    .campus{
+   
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+        width: 400px;
+        height: 100%;
+        
+    }
+    .faculta img{
+        width: 400px;
+        height:400px;
+        border-radius: 10%;
+        margin-top: 20px;
+       
+    }
+    .campus h1{
+        font-size: 20px;
+    }
+}
+
+/*----- facilitati---*/
+
+.Facilities{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.facilitati{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.facilitati img{
+    width: 80%;
+    border-radius: 10px;
+
+}
+
+.facilitati h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
 
 
